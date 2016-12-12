@@ -1,0 +1,41 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AboutUs.aspx.cs" Inherits="AboutUs" %>
+
+<!DOCTYPE html>
+
+<link rel="stylesheet" type="text/css" href="AboutUs.css">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>About Us</title>
+</head>
+<body>
+    <form id="About" runat="server">
+    <div>
+        <h1>About Us</h1>
+
+        <div id="DanM" runat="server">
+            <h3>Dan Madden</h3>
+            <h5>Title-in-progress</h5>
+            <p>
+
+            </p>
+        </div>
+
+        <div id="RayY" runat="server">
+            <h3>Raymond Yu</h3>
+            <h5>Title-in-progress</h5>
+            <p>
+
+            </p>
+        </div>
+        
+        <div id="SamG" runat="server">
+            <h3>Sam Grausam</h3>
+            <h5>Title-in-progress</h5>
+            <p>
+
+            </p>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
