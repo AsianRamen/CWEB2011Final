@@ -14,25 +14,25 @@
 
         <div id="DanM" runat="server">
             <h3>Dan Madden</h3>
-            <h5>Title-in-progress</h5>
+            <h5>Login Tech</h5>
             <p>
-
+            Created the login and register page adding to the database and creating a session state.
             </p>
         </div>
 
         <div id="RayY" runat="server">
             <h3>Raymond Yu</h3>
-            <h5>Title-in-progress</h5>
+            <h5>Site Slave</h5>
             <p>
-
+            
             </p>
         </div>
         
         <div id="SamG" runat="server">
             <h3>Sam Grausam</h3>
-            <h5>Title-in-progress</h5>
+            <h5>Data Manager</h5>
             <p>
-
+            Deals with the back end data pulling the information and adding the selected items to cart.
             </p>
         </div>
     </div>
