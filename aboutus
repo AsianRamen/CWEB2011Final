@@ -1,20 +1,30 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AboutUs.aspx.cs" Inherits="AboutUs" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="AboutPage.aspx.cs" Inherits="TheProject.AboutPage" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div id="Navigation">
+        <div id="navs">
+            <asp:Button runat="server" ID="HButton" Text="Home" OnClick="HButton_Click"/>
+            <asp:Button runat="server" ID="Contact" Text="Contact" OnClick="Contact_Click"/>
+            <asp:Button runat="server" ID="About" Text="About" OnClick="About_Click"/>
+        </div>
+        <div id="pageTitle">
+            <asp:Label runat="server"><u>Welcome to our Login Page</u></asp:Label><br /><br />
+        </div>
 
-<!DOCTYPE html>
-
-<link rel="stylesheet" type="text/css" href="AboutUs.css">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>About Us</title>
-</head>
-<body>
-    <form id="About" runat="server">
-    <div>
+        <div id="creds">
+            <asp:Button runat="server" ID="Reg" Text="Register" OnClick="Reg_Click" />
+            <asp:Button runat="server" ID="logButton1" Text="Login" OnClick="Login_Click" />
+            
+            <asp:Button runat="server" ID="Cart" Text="Shopping Cart" OnClick="Cart_Click"/>
+        </div>  
+    </div>
+    <div id="MainContent">
         <h1>About Us</h1>
 
         <div id="DanM" runat="server">
             <h3>Dan Madden</h3>
-            <h5>Login Tech</h5>
+            <h4>Login Tech</h4>
             <p>
             Created the login and register page adding to the database and creating a session state.
             </p>
@@ -22,7 +32,7 @@
 
         <div id="RayY" runat="server">
             <h3>Raymond Yu</h3>
-            <h5>Site Slave</h5>
+            <h4>Site Slave</h4>
             <p>
             
             </p>
@@ -30,12 +40,12 @@
         
         <div id="SamG" runat="server">
             <h3>Sam Grausam</h3>
-            <h5>Data Manager</h5>
+            <h4>Data Manager</h4>
             <p>
             Deals with the back end data pulling the information and adding the selected items to cart.
             </p>
         </div>
+        </div>
     </div>
-    </form>
-</body>
-</html>
+</asp:Content>
+
