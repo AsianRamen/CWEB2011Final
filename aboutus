@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<link href="AboutPage.css" rel="stylesheet" type="text/css" />
     <div id="Navigation">
         <div id="navs">
             <asp:Button runat="server" ID="HButton" Text="Home" OnClick="HButton_Click"/>
