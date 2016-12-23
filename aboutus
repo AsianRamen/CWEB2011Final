@@ -20,9 +20,8 @@
             <asp:Button runat="server" ID="Cart" Text="Shopping Cart" OnClick="Cart_Click"/>
         </div>  
     </div>
+    <h1>About Us</h1>
     <div id="MainContent">
-        <h1>About Us</h1>
-
         <div id="DanM" runat="server">
             <h3>Dan Madden</h3>
             <h4>Login Tech</h4>
@@ -30,15 +29,15 @@
             Created the login and register page adding to the database and creating a session state.
             </p>
         </div>
-
+        </br>
         <div id="RayY" runat="server">
             <h3>Raymond Yu</h3>
             <h4>Site Slave</h4>
             <p>
-            
+            Managed the web pages and content.
             </p>
         </div>
-        
+        </br>
         <div id="SamG" runat="server">
             <h3>Sam Grausam</h3>
             <h4>Data Manager</h4>
@@ -49,4 +48,3 @@
         </div>
     </div>
 </asp:Content>
-
